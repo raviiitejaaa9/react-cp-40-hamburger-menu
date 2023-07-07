@@ -1,0 +1,80 @@
+/* Write your CSS here
+<Route exact path="/about" component={About} />
+    <Route component={NotFound} />
+    <Route exact path="/" component={Home} />
+
+.close-btn {
+  align-self: flex-end;
+}
+    */
+.navbar {
+  width: 100%;
+  border-bottom: 1px;
+  border-color: black;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.website-logo {
+  width: 50px;
+  height: 40px;
+  margin-left: 13px;
+}
+
+.rjs-icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.ham-btn {
+  width: 29px;
+  height: 29px;
+  margin-right: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.popup-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.link-container {
+  width: 230px;
+  height: 200px;
+  background-color: transparent;
+  border: none;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.popup-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-icon {
+  width: 20px;
+  height: 20px;
+}
